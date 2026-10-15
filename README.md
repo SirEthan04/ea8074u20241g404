@@ -1,27 +1,30 @@
-# Saga Tech Management
 
-Aplicaci?n de inventario de laptops con Vue, Pinia, Axios y PrimeVue (preset Aura).
+# Plataform of Falabella 
 
-Autor: Mateo Caldas Bravo
+## Description
 
-## Ejecuci?n
+The application is capable of registering new laptop inventory.
 
-Instala las dependencias con npm install.
-En una terminal ejecuta npm run server (puerto 3100).
-En otra terminal ejecuta npm run dev.
-Para compilar ejecuta npm run build.
+## Technologies
 
-## Configuraci?n
+- Vite with Vue 
+- Prime Vue
+- Pinia
+- jsom
 
-Copia .env.example como .env.local y configura VITE_LOGO_DEV_TOKEN con tu token p?blico de Logo.dev. Sin token se muestra el nombre de Falabella como alternativa.
-VITE_INVENTORY_API_URL permite cambiar la direcci?n del servidor local.
+## Features
 
-## Rutas
+- Display new records
+- Modify them
+- Register and update them
 
-- /home: tarjetas de secciones y capacidad disponible.
-- /laptop/items/new: registro de laptops usando el cat?logo de DummyJSON.
-- /: redirecci?n a /home.
-- Otras rutas: p?gina no encontrada.
+## Architecture
 
-El precio se muestra en USD, la moneda de los valores del cat?logo. La fecha se registra autom?ticamente en formato ISO.
-Las capas domain, application, infrastructure y presentation siguen la organizaci?n de la plantilla base.
+The application follows a Domain-Driven Design-inspired architecture.
+
+
+## Authorship
+
+Developed by Mateo Caldas Bravo
+link GH: https://github.com/SirEthan04/ea8074u20241g404.git
+Academic practice project.
